@@ -1,0 +1,109 @@
+<!DOC/* styles.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      margin-top: 5px;
+      font-size: 18px;
+    }
+    .featured-recipes {
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .recipe-card {
+      width: 30%;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+    }
+    .recipe-card:hover {
+      transform: translateY(-5px);
+    }
+    .recipe-card img {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ddd;
+    }
+    .recipe-card h3,
+    .recipe-card p {
+      text-align: center;
+      margin: 10px 0;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to our Recipe Website</h1>
+    <p>Discover delicious recipes for every occasion</p>
+  </header>
+  
+  <section class="featured-recipes">
+    <div class="recipe-card">
+      <img src="chicken fried rice .jpg" alt="chicken fried rice ">
+      <h3>chicken fried rice</h3>
+      <p> main coursers</p>
+    </div>
+    <div class="recipe-card">
+      <img src="Friese.jpg" alt="friece">
+      <h3></h3>
+      <p>A mouthwatering appetizer</p>
+    </div>
+    <div class="recipe-card">
+      <img src="salad.jpg" alt="Delicious Dish 3">
+      <h3>An irresistible dessert</h3>
+     
+    </div>
+  </section>
+  
+  <footer>
+    <p><a href="cat.html">RECEPIES</a></p>
+  </footer>
+</body>
+</html>
+
